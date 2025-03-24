@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@android:color/white"
+    android:padding="20dp">
+
+    <!-- Doctor Image -->
+    <ImageView
+        android:id="@+id/doctorImage"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/img"
+        android:contentDescription="Doctor Image"
+        android:layout_marginBottom="30dp"/>
+
+    <!-- Doctor Button -->
+    <Button
+        android:id="@+id/doctorButton"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="DOCTOR"
+        android:backgroundTint="@color/purple_700"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:layout_marginBottom="60dp"
+        android:cornerRadius="20dp"/>
+
+    <!-- Patient Image -->
+    <ImageView
+        android:id="@+id/patientImage"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/img_1"
+        android:contentDescription="Patient Image"
+        android:layout_marginBottom="30dp"/>
+
+    <!-- Patient Button -->
+    <Button
+        android:id="@+id/patientButton"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="PATIENT"
+        android:backgroundTint="@color/purple_700"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:cornerRadius="20dp"/>
+
+</LinearLayout>
