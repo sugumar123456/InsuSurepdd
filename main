@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity"
+    android:background="@android:color/white"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="130dp"
+        android:text="WELCOME"
+        android:textColor="@android:color/black"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/glucoseImage"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:src="@drawable/image48"
+        android:contentDescription="Glucose Meter Image"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/subtitleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SUGAR SMART"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="100dp"/>
+
+    <Button
+        android:id="@+id/getStartedButton"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:text="Get started"
+        android:backgroundTint="@color/purple_700"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:cornerRadius="20dp"/>
+
+</LinearLayout>
